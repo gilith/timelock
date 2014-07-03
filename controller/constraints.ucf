@@ -1,0 +1,11 @@
+NET     clk        LOC="AH15";
+NET     clk        IOSTANDARD="LVCMOS33";
+
+NET     rx_serial  LOC="AG15";
+NET     rx_serial  IOSTANDARD="LVCMOS33";
+
+NET     tx_serial  LOC="AG20";
+NET     tx_serial  IOSTANDARD="LVCMOS33";
+
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 10.0 ns HIGH 50%;
