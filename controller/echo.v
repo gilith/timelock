@@ -10,13 +10,13 @@ module echo (
     reg new_putbyte = 0;
     reg [7:0] putbyte;
 
-	uart_transmitter uart_tx (
-		.clk (clk),
-		.uart_tx (tx_serial),
-		.rx_new_byte (new_putbyte),
-		.rx_byte (putbyte),
-		.tx_ready (tx_ready)
-	);
+    uart_transmitter uart_tx (
+        .clk (clk),
+        .uart_tx (tx_serial),
+        .rx_new_byte (new_putbyte),
+        .rx_byte (putbyte),
+        .tx_ready (tx_ready)
+    );
 
     wire new_getbyte;
     wire [7:0] getbyte;
