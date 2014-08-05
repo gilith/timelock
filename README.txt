@@ -33,8 +33,6 @@ communicate with the user over USB.
 _______________________________________________________________________________
 controller/
 
-[Not implemented]
-
 This directory contains a Verilog main controller module that
 instantiates the montgomery and uart modules. The controller receives
 single byte commands from the user to load an input number into the
