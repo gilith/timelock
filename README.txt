@@ -28,7 +28,7 @@ uart/
 
 This directory contains Verilog modules implementing a universal
 asynchronous receiver/transmitter (UART), which allows the hardware to
-communicate with the user over USB.
+communicate with the user over the serial bus.
 
 _______________________________________________________________________________
 controller/
