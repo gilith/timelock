@@ -5,9 +5,9 @@
 | Distributed under the MIT license.                                          |
 +----------------------------------------------------------------------------*/
 
-`include "../montgomery/test_timelock_3.v"
-`include "../uart/uart_receiver.v"
-`include "../uart/uart_transmitter.v"
+/* `include "../montgomery/test_timelock_3.v" */
+/* `include "../uart/uart_receiver.v" */
+/* `include "../uart/uart_transmitter.v" */
 
 module controller (
   input clk,
