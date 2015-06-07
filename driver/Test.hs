@@ -1,4 +1,4 @@
-import qualified Data.ByteString.Char8 as B
+import qualified Data.ByteString as B
 import System.Hardware.Serialport
 
 main :: IO ()
